@@ -1,0 +1,81 @@
+*{
+    background-color: rgb(187, 187, 232);
+}
+#home{
+    font-size: 1.5rem;
+    color: cornflowerblue;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   background-color: rgb(116, 107, 247);
+    font-size: 1.2rem;
+    height: 10rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;  
+}
+nav ul li{ 
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: underline;
+    color: rgb(78, 134, 219));
+}
+nav ul li a:hover{
+    color: rgb(155, 155, 241);
+}
+#home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightsection img{
+    margin: 20% 0;
+     border-radius:"50%";
+}
+.leftsection div{
+    font-size: 2rem;
+    color: brown;
+}
+span{
+    color: rgb(rgb(196, 190, 190));
+}
+#projects{
+    color:rgb(13, 4, 117);
+    text-align: center;
+
+}
+ul{
+    color: rgb(31, 29, 158);
+}
+h2{
+    font-size: 2rem;
+    color: rgb(64, 113, 113);
+}
+#projects{
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-around;
+}
+#skills{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+p{
+    font-size: 1.2rem;
+}
+#footer{
+    background-color: rgb(116, 107, 247);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    height: 10rem;
+    
+}#footer ul li{
+    list-style-type: none;
+}
