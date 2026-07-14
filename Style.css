@@ -325,3 +325,34 @@ nav{
 }
 
 }
+body{
+    opacity:0;
+    transition:1s;
+}
+
+.cursor{
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    position:fixed;
+    background:#00e5ff;
+    pointer-events:none;
+    transform:translate(-50%,-50%);
+    box-shadow:0 0 25px #00e5ff;
+    z-index:9999;
+}
+
+nav.show{
+    display:flex;
+    position:absolute;
+    top:80px;
+    right:20px;
+    flex-direction:column;
+    background:#101528;
+    padding:20px;
+    border-radius:15px;
+}
+
+nav a.active{
+    color:#00e5ff;
+}
